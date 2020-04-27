@@ -328,7 +328,7 @@ div.title.animate.animation.black {
     }
 }
 
-@media only screen and (min-width: 240px) and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
     header .logo {
         display: none;
     }
