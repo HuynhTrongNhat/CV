@@ -3,15 +3,10 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const navigation = document.querySelector("nav");
 
-menuToggle.addEventListener("click", () => {
+menuToggle.addEventListener("click", changeStateMenu = () => {
   menuToggle.classList.toggle("active");
   navigation.classList.toggle("active");
 });
-
-const changeStateMenu = () => {
-  menuToggle.classList.toggle("active");
-  navigation.classList.toggle("active");
-};
 // Menu
 
 /* Menu fixed */
